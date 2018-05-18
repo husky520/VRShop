@@ -1,0 +1,30 @@
+.m-navbar.navbar {
+    border-radius: 0;
+}
+.m-navbar .navbar-search {
+    width: 120px;
+    height: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 15px;
+    border: 2px solid #333;
+    color: #eee;
+    background-color: transparent;
+    outline: none;
+    transition: all 300ms;
+}
+.m-navbar .navbar-search:focus {
+    width: 160px;
+    border-color: #ccc;
+    background-color: rgba(255,255,255,.05);
+}
+.m-navbar .navbar-search:focus ~ .btn-search {
+    color: #ddd;
+}
+.m-navbar .btn-search {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: transparent;
+    font-size: 20px;
+    outline: none;
+}

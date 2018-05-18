@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>首页</title>
+    <!-- bootstrap and jquery -->
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+    <script src="lib/jquery/jquery.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.js"></script>
+    <!-- bootstrap and jquery end -->
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/m-navbar.css">
+    <!-- css end -->
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="m-navbar navbar navbar-inverse">
+        <div class="container">
+            <!-- navbar button and brand -->
+            <div class="navbar-header">
+                <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#m-navbar">
+                    <span class="sr-only">导航菜单</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">VR-Shop</a>
+            </div>
+            
+            <!-- navbar button and brand end -->
+            <div class="collapse navbar-collapse" id="m-navbar">
+                <!-- navbar left -->
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="#">全景</a></li>
+                    <li><a href="#">模型</a></li>
+                    <li><a href="#">论坛</a></li>
+                </ul>
+                <!-- navbar left end -->
+
+                <!-- navbar right -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">登陆</a></li>
+                    <li><a href="#">注册</a></li>
+                </ul>
+                <!-- navbar right end -->
+
+                <!-- navbar search -->
+                <form action="index.html" method="get" class="navbar-form navbar-right">
+                    <input class="navbar-search" type="text" name="keywords">
+                    <button class="btn btn-search" type="submit">
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                </form>
+                <!-- navbar search end -->
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Content -->
+    <a href="panorama.html">全景</a>
+    <a href="model.html">模型</a>
+    <!-- Content end -->
+</body>
+</html>
